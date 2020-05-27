@@ -1,0 +1,27 @@
+kutengeneza Laravel Scheduled Tasks kwenye window
+
+Tengeneza scheduled task
+
+Fungua Task scheduler
+Chagua Create Task...
+Ipe task yako jina (name) na maelezo(description)
+Kufanya task iwe inafanya kazi haijalishi mtu amelogin au la. Chagua the user is logged on or not na pia check  Hidden checkbox.
+
+## Triggers
+Tengeneza new trigger.
+Panga trigger ifanye kazi kila siku (Daily)na pia iwe inatokea kila baada ya siku moja (1 day). 
+panga iwe inarudia kila baada ya 1 Minutes. Kwa bahati mbaya uwezi kuchagua 1 minutes basi usiwe na shaka we chakua 5 minutes kisha badilisha  weka 1 minutes
+Panga kwa kipindi cha (duration of) to indefinitely
+Hakikisha kwamba umecheck Enabled
+
+## Actions
+Create a new action.
+Start php by entering the php binary location, such as C:\php\php.exe
+Set Add arguments field to C:\{project-dir}\artisan schedule:run (replace {project-dir} with appropriate path).
+Settings
+Check Allow task to be run on demand.
+Check Run task as soon as possible after a scheduled start is missed.
+Wrap-up
+To ensure that the task is running, find the task in the Task Scheduler Library.
+Note the task Status. It may be Ready or Running.
+Note the Next Run Time and Last Run Time properties.

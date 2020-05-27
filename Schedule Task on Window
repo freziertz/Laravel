@@ -15,13 +15,16 @@ Panga kwa kipindi cha (duration of) to indefinitely
 Hakikisha kwamba umecheck Enabled
 
 ## Actions
-Create a new action.
-Start php by entering the php binary location, such as C:\php\php.exe
-Set Add arguments field to C:\{project-dir}\artisan schedule:run (replace {project-dir} with appropriate path).
+Tengeneza new action.
+Anzisha php kwa kuingiza php binary location, kama C:\php\php.exe
+Weka Add argument field hivi C:\{project-dir}\artisan schedule:run (replace {project-dir} with appropriate path).
+
 Settings
-Check Allow task to be run on demand.
-Check Run task as soon as possible after a scheduled start is missed.
-Wrap-up
-To ensure that the task is running, find the task in the Task Scheduler Library.
-Note the task Status. It may be Ready or Running.
-Note the Next Run Time and Last Run Time properties.
+Check task zote zianze pale unapotaka (run on demand).
+Check task ziwe zinaanza tena mara tu zinaposhidwa kufanya kazi (scheduled start is missed)
+
+Jumuisho
+Hakikisha kama task ina fanya kazi, tafuta task kwenye Task Sheduler Library
+Angalia task Status. inaweza ikawa Ready au Running
+Angalia Next Run Time na Last Run Time propersties
+
